@@ -17,6 +17,14 @@ body {
 a {
   text-decoration: none;
 }
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -70,7 +78,6 @@ a {
 .nav li.active a,
 .nav a:hover {
   color: #171100;
-  /* font-weight: 600; */
   text-shadow: 1px 0 0 currentColor;
 }
 .nav li.active a::after {
@@ -231,3 +238,41 @@ a {
 .hero .stats {
   margin-top: 8px;
 }
+/* Popular */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.polular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.polular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.polular-top .controls {
+  display: flex;
+  gap: 18px;
+}
+.polular-top .controls-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border:1px solid var(--primary-color);
+}
+.polular-top .controls-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+
